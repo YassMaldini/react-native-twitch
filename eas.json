@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 2.2.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "IS_DEV": "true",
+        "APP_NAME": "Twitch (dev)",
+        "IOS_BUNDLE_ID": "com.ios.dev.twitchClone",
+        "ANDROID_PACKAGE_NAME": "com.android.dev.twitchClone"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_NAME": "Twitch",
+        "IOS_BUNDLE_ID": "com.ios.twitchclone",
+        "ANDROID_PACKAGE_NAME": "com.and.twitchclone"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "yass.maldini@gmail.com",
+        "ascAppId": "6444552482",
+        "appleTeamId": "PDZ8AHDZ3L"
+      }
+    }
+  }
+}

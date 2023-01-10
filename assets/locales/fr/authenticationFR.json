@@ -1,0 +1,13 @@
+{
+  "signIn": {
+    "form": {
+      "placeholder": {
+        "username": "Numéro de téléphone, e-mail ou nom d'utilisateur",
+        "password": "Mot de passe"
+      }
+    }
+  },
+  "languagePicker": {
+    "header": "SÉLECTIONNEZ VOTRE LANGUAGE"
+  }
+}

@@ -1,0 +1,1 @@
+export const webSocket = new WebSocket('https://irc-ws.chat.twitch.tv/');

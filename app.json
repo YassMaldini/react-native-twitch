@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Twitch",
+    "slug": "twitch-app",
+    "version": "1.1.0",
+    "runtimeVersion": "1.1.0",
+    "jsEngine": "hermes",
+    "icon": "./assets/twitch_logo.png",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.ios.twitchclone",
+      "buildNumber": "3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.and.twitchclone",
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          }
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "ALL"
+        }
+      ],
+      [
+        "@config-plugins/detox",
+        {
+          "subdomains": "*"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3e4a8e1b-d224-4695-8979-5b0c2a38d5fd"
+      }
+    }
+  }
+}
