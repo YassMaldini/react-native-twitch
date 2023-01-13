@@ -42,7 +42,7 @@ Follow these steps to set up the project locally.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/YassMaldini/instagram-clone.git
+   git clone https://github.com/YassMaldini/react-native-twitch.git
    ```
 2. Install NPM packages
    ```sh
@@ -71,7 +71,7 @@ Follow these steps to set up the project locally.
 <!-- CURRENT LIMITS -->
 ## Current limits
 
-The main limit was the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make a login flow in the same way as the real app and to use some mutations.
+The main limit was the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make the login flow in the same way as the real app and to use some mutations.
 
 So to overcome the login issue I used a WebView for the login. But I still can't handle some mutations as following a user or a game.
 
