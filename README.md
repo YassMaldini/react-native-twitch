@@ -71,9 +71,9 @@ Follow these steps to set up the project locally.
 <!-- CURRENT LIMITS -->
 ## Current limits
 
-The main limit was the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make a login flow in the same way as the real app.
+The main limit was the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make a login flow in the same way as the real app and to use some mutations.
 
-So to overcome it I used a WebView for the login. But I still can't handle some mutation as following a user or a game.
+So to overcome the login issue I used a WebView for the login. But I still can't handle some mutations as following a user or a game.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -86,7 +86,7 @@ Here is an intersting bolg post who's explaining the reasons why they didn't cho
 
 https://blog.twitch.tv/en/2017/04/25/investigating-react-native-6032ecced610/
 
-Note that this blog was written almost 6 years ago and many improvments have been made to React Native since then.
+Note that this post was written almost 6 years ago and many improvments have been made to React Native since then.
 
 <!-- CONTACT -->
 ## Contact
