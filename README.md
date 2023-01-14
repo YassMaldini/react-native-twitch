@@ -69,6 +69,22 @@ Follow these steps to set up the project locally.
    ```sh
    eas build --platform android|ios|all --profile production
    ```
+   
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Improve general performance
+- [ ] Write unit tests for every design system's components
+- [ ] Finish the Player component
+- [ ] Change colors to match React colors
+- [ ] Multi-theme Support
+    - [ ] Light mode
+    - [x] Dark mode
+- [ ] Multi-language Support
+    - [x] English
+    - [ ] French
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <!-- CURRENT LIMITS -->
 ## Current limits
