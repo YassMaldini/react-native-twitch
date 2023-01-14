@@ -4,21 +4,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/YassMaldini/react-native-twitch](https://github.com/YassMaldini/react-native-twitch)">
-    <img src="assets/twitch_logo.png" style="border-radius: 5px;" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">React Native Twitch</h3>
 
   <p align="center">
-    A clone of the Twitch app using the same API as the real app (android).
-    <br />
-    <br />
-    <a href=""><strong>Online Demo »</strong></a>
-    <br />
-    <div align="center">
-      <img src="https://miro.medium.com/max/800/1*yWUgGAQuiROzilwG_tEU2Q.png" alt="rn_ts" width="85" height="50">
-    </div>
+  <a href="[https://github.com/YassMaldini/react-native-twitch](https://github.com/YassMaldini/react-native-twitch)">
+    <img src="assets/twitch_logo.png" style="border-radius: 5px;" alt="Logo" width="80" height="80">
+      <h1 align="center">React Native Twitch</h1>
+  </a>
+  </p>
+  
+  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/react-native-twitch/react?logo=React" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/react-native-twitch/react-native?logo=React" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/react-native-twitch/expo?color=blueviolet&logo=Expo" />
+  <img src="https://img.shields.io/github/actions/workflow/status/YassMaldini/react-native-twitch/eas-build.yml" />
+  <br />
+  <br />
+  
+  <p align="center">
+    <b>A clone of Twitch's mobile app based on the same API as the real app.</b>
   </p>
 </div>
 
@@ -71,7 +73,7 @@ Follow these steps to set up the project locally.
 <!-- CURRENT LIMITS -->
 ## Current limits
 
-The main limit was the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make the login flow in the same way as the real app and to use some mutations.
+The main limit is the `/integrity` endpoint which is a new security implemented by Twitch at the end of 2022. It prevents me to make the login flow in the same way as the real app and to use some mutations.
 
 So to overcome the login issue I used a WebView for the login. But I still can't handle some mutations as following a user or a game.
 
@@ -82,7 +84,7 @@ It's a revisited version of the twitch's mobile app based on the same API as the
 
 This project was made using React Native, Expo and Typescript unlike the real app who's made using the native languages for both platform.
 
-Here is an intersting bolg post who's explaining the reasons why they didn't choose to switch to React Native.
+Here is an interesting bolg post who's explaining the reasons why they didn't choose to switch to React Native.
 
 https://blog.twitch.tv/en/2017/04/25/investigating-react-native-6032ecced610/
 
