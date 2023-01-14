@@ -4,7 +4,7 @@ import getTheme from '../../../utils/theme/theme';
 import Box from '../Box/Box';
 
 import Button from './Button';
-import { ButtonColors } from './Button.types';
+import { ButtonColors, ButtonSizes } from './Button.types';
 
 describe('<Button />', () => {
   const { colors } = getTheme();
@@ -50,5 +50,11 @@ describe('<Button />', () => {
     const { getByTestId } = renderInProviders(<Button loading={true}>Test</Button>);
 
     expect(getByTestId('loading')).toBeTruthy();
+  });
+
+  it('should have correct font-size depending on the size prop', () => {
+    const { getByTestId } = renderInProviders(<Button size={ButtonSizes.Large}>Test</Button>);
+
+    expect(getByTestId('buttonText').props.style[0].fontSize).toBe(18);
   });
 });
