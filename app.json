@@ -16,23 +16,26 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "requireFullScreen": true,
       "bundleIdentifier": "com.ios.twitchclone",
-      "buildNumber": "3"
+      "buildNumber": "3",
+      "enableHermes": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png"
       },
       "package": "com.and.twitchclone",
-      "versionCode": 3
+      "versionCode": 3,
+      "enableHermes": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": ["her", "js", "jsx"]
     },
     "plugins": [
       [
@@ -56,7 +59,8 @@
         {
           "subdomains": "*"
         }
-      ]
+      ],
+      ["expo-community-flipper"]
     ],
     "extra": {
       "eas": {
