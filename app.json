@@ -2,16 +2,16 @@
   "expo": {
     "name": "Twitch",
     "slug": "twitch-app",
-    "version": "1.1.0",
-    "runtimeVersion": "1.1.0",
+    "version": "1.2.0",
+    "runtimeVersion": "1.2.0",
     "jsEngine": "hermes",
-    "icon": "./assets/twitch_logo.png",
+    "icon": "./assets/icon.png",
     "orientation": "default",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#61DAFB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,7 +20,7 @@
     "ios": {
       "requireFullScreen": true,
       "bundleIdentifier": "com.ios.twitchclone",
-      "buildNumber": "3",
+      "buildNumber": "4",
       "enableHermes": true
     },
     "android": {
@@ -28,7 +28,7 @@
         "foregroundImage": "./assets/adaptive-icon.png"
       },
       "package": "com.and.twitchclone",
-      "versionCode": 3,
+      "versionCode": 4,
       "enableHermes": true
     },
     "web": {

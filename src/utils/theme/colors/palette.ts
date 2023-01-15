@@ -1,5 +1,5 @@
 export const PALETTE = Object.freeze({
-  primaryHighlight: '#f37c98',
+  primaryHighlight: '#93e0f5',
 
   white: '#fff',
   black: '#000',
@@ -15,7 +15,6 @@ export const PALETTE = Object.freeze({
   gray5: '#262626',
   gray6: '#1a1a1a',
   gray7: '#121212',
-
 
   colorHintedGrey1: '0e0e10',
   colorHintedGrey2: '18181b',
@@ -33,9 +32,9 @@ export const PALETTE = Object.freeze({
   colorHintedGrey14: 'efeff1',
   colorHintedGrey15: 'f7f7f8',
 
-  highlightedText: '#f37c98',
+  highlightedText: '#93e0f5',
 
-  defaultButton: '#d71442',
+  defaultButton: '#61DAFB',
 
   disabledButtonBackground: '#0095F650',
   disabledButtonText: '#BCC0C480',
@@ -47,7 +46,7 @@ export const PALETTE = Object.freeze({
   errorOrDestructive: '#ed4956',
   link: '#e0f1ff',
 
-  twitchPurple: '#d71442',
+  twitchPurple: '#61DAFB',
   twitchPurple1: '#040109',
   twitchPurple2: '#0d031c',
   twitchPurple3: '#15052e',
@@ -278,5 +277,5 @@ export const PALETTE = Object.freeze({
   colorPaypalYellow: '#fcc439',
   colorVenmo: '#008cff',
   colorVk: '#45668e',
-  colorAmazon: '#fad677'
-})
+  colorAmazon: '#fad677',
+});

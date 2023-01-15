@@ -8,6 +8,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { connectToDevTools } from 'react-devtools-core';
 
 import '../../../utils/i18n/i18n';
+import { LogBox } from 'react-native';
 
 const Application = () => {
   const { store, persistor } = configureStore();
@@ -18,6 +19,8 @@ const Application = () => {
       host: 'localhost',
       port: 8097,
     });
+
+    LogBox.ignoreAllLogs();
   }
 
   return (
