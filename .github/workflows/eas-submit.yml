@@ -34,7 +34,10 @@ jobs:
         run: npm install
 
       - name: 🚀 Create build
-        run: eas build -p ios
+        run: eas build -p ios --non-interactive
+        env:
+          EXPO_APPLE_ID: ${{secrets.APPLE_ACCOUNT_ID}}
+          EXPO_APPLE_PASSWORD: ${{secrets.APPLE_ACCOUNT_PASSWORD}}
 
       - name: 🚀 Submit build
         run: eas submit -p ios --latest --non-interactive
