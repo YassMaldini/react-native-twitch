@@ -13,7 +13,7 @@ jobs:
       - name: 🏗 Setup repo
         uses: actions/checkout@v2
         with:
-          repository: YassMaldini/twitch-app
+          repository: YassMaldini/react-native-twitch
           token: ${{ secrets.PAT }}
           ref: main
 
