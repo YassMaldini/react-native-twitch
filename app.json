@@ -59,8 +59,7 @@
         {
           "subdomains": "*"
         }
-      ],
-      ["expo-community-flipper"]
+      ]
     ],
     "extra": {
       "eas": {
