@@ -59,7 +59,9 @@
         {
           "subdomains": "*"
         }
-      ]
+      ],
+      ["expo-font"],
+      ["react-native-video"]
     ],
     "extra": {
       "eas": {
